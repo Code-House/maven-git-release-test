@@ -6,9 +6,10 @@
     <parent>
         <groupId>org.code-house.git</groupId>
         <artifactId>release-test</artifactId>
-        <version>2.2-SNAPSHOT</version>
+        <version>2.1</version>
     </parent>
     <artifactId>release-test-modulea</artifactId>
+  <version>2.2.1</version>
 
     <scm>
         <connection>scm:git:git@github.com:Code-House/maven-git-release-test.git</connection>
