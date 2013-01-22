@@ -14,9 +14,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git:git@github.com:splatch/maven-git-release-test.git</connection>
-        <url>https://github.com/splatch/maven-git-release-test</url>
-        <developerConnection>scm:git:git@github.com:splatch/maven-git-release-test.git</developerConnection>
+        <connection>scm:git:git@github.com:Code-House/maven-git-release-test.git</connection>
+        <url>https://github.com/Code-House/maven-git-release-test</url>
+        <developerConnection>scm:git:git@github.com:Code-House/maven-git-release-test.git</developerConnection>
     </scm>
 
     <distributionManagement>
