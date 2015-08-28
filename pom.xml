@@ -23,7 +23,7 @@
     <distributionManagement>
        <repository>
            <id>local</id>
-           <url>file:/Users/lukasz/release-repo/</url>
+           <url>file:/Users/splatch/projects/git-release-test/target/</url>
        </repository>
     </distributionManagement>
 
