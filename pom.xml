@@ -5,14 +5,14 @@
 
     <groupId>org.code-house.git</groupId>
     <artifactId>release-test</artifactId>
-    <version>13.0.0-SNAPSHOT</version>
+    <version>13.0.0</version>
     <packaging>pom</packaging>
 
     <scm>
         <connection>scm:git:git@github.com:Code-House/maven-git-release-test.git</connection>
         <url>https://github.com/Code-House/maven-git-release-test</url>
         <developerConnection>scm:git:git@github.com:Code-House/maven-git-release-test.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>release-test-13.0.0</tag>
   </scm>
 
     <distributionManagement>

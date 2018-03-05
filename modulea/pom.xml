@@ -6,10 +6,10 @@
     <parent>
         <groupId>org.code-house.git</groupId>
         <artifactId>release-test</artifactId>
-        <version>13.0.0-SNAPSHOT</version>
+        <version>13.0.0</version>
     </parent>
     <artifactId>release-test-modulea</artifactId>
-    <version>13.0.0-SNAPSHOT</version>
+    <version>13.0.0</version>
 
     <dependencies>
         <dependency>
