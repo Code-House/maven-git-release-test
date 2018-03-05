@@ -17,7 +17,7 @@
 
     <distributionManagement>
        <repository>
-           <id>local</id>
+           <id>disk</id>
            <url>file:/Users/splatch/projects/git-release-test/target/</url>
        </repository>
     </distributionManagement>
@@ -40,6 +40,9 @@
             <id>A</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
+                <property>
+                    <name>profileA</name>
+                </property>
             </activation>
 
             <modules>
@@ -58,6 +61,11 @@
         </profile>
         <profile>
             <id>B</id>
+            <activation>
+                <property>
+                    <name>profileB</name>
+                </property>
+            </activation>
             <modules>
                 <module>moduleb</module>
             </modules>
