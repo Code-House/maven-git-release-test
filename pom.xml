@@ -18,7 +18,7 @@
     <distributionManagement>
        <repository>
            <id>disk</id>
-           <url>file:/Users/splatch/projects/git-release-test/target/</url>
+           <url>file:/tmp</url>
        </repository>
     </distributionManagement>
 
