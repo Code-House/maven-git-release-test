@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.code-house.git</groupId>
         <artifactId>release-test</artifactId>
-        <version>15.0.2</version>
+        <version>15.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>release-test-modulea</artifactId>
 
