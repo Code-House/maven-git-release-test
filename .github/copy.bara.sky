@@ -1,0 +1,24 @@
+sourceUrl = "ssh://git@github.com/code-house/maven-git-release-test.git"
+destinationUrl = sourceUrl
+
+core.workflow(
+  name = "3.1.x",
+  mode='ITERATIVE',
+  origin = git.github_pr_origin(
+    url = sourceUrl,
+    required_labels=["enhancement"],
+    required_check_runs=["success"],
+    branch = "master",
+  ),
+  destination = git.github_pr_destination(
+    url = sourceUrl,
+    destination_ref = "3.1.x",
+    title = "[3.1.x] ${GITHUB_PR_TITLE}",
+    body = "Synchronization with base version:\n${GITHUB_PR_BODY}",
+    update_description = True
+  ),
+  authoring = authoring.pass_thru("ConnectorIO Bot <ci@connectorio.com>"),
+  transformations = [
+    core.move("", "external"),
+  ],
+)
