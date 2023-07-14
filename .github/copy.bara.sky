@@ -14,7 +14,7 @@ core.workflow(
     url = sourceUrl,
     destination_ref = "3.1.x",
     title = "[3.1.x] ${GITHUB_PR_TITLE}",
-    body = "Synchronization with base version:\n${GITHUB_PR_BODY}",
+    body = "Automatic patch derivered from #${GITHUB_PR_NUMBER}.",
     update_description = True
   ),
   authoring = authoring.pass_thru("ConnectorIO Bot <ci@connectorio.com>"),
