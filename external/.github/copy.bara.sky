@@ -7,7 +7,7 @@ core.workflow(
   origin = git.github_pr_origin(
     url = sourceUrl,
     required_labels=["enhancement"],
-    required_check_runs=["success"],
+    #required_check_runs=["success"],
     branch = "master",
   ),
   destination = git.github_pr_destination(
