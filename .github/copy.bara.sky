@@ -19,6 +19,5 @@ core.workflow(
   ),
   authoring = authoring.pass_thru("ConnectorIO Bot <ci@connectorio.com>"),
   transformations = [
-    core.move("", "external"),
   ],
 )
