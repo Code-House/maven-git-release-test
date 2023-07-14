@@ -9,6 +9,8 @@ jobs:
     #if: contains(github.event.pull_request.labels.*.name, 'enhancement')
     permissions:
       pull-requests: write
+      contents: write
+
     runs-on: ubuntu-latest
 
     steps:
